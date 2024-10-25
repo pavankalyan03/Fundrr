@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".StartupSignupActivity">
+
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+            <!-- Signup Title -->
+            <TextView
+                    android:id="@+id/signup_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Startup Signup"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="24dp" />
+
+            <!-- Startup Name Field -->
+            <EditText
+                    android:id="@+id/startup_name_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Startup Name"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Industry Field -->
+            <EditText
+                    android:id="@+id/industry_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Industry"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Location Field -->
+            <EditText
+                    android:id="@+id/location_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Location"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Problem Statement Field -->
+            <EditText
+                    android:id="@+id/problem_statement_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Problem Statement"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Business Idea Field -->
+            <EditText
+                    android:id="@+id/business_idea_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Business Idea"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- USP Field -->
+            <EditText
+                    android:id="@+id/usp_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="USP"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Current Stage Field -->
+            <EditText
+                    android:id="@+id/current_stage_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Current Stage"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Funding Status Field -->
+            <EditText
+                    android:id="@+id/funding_status_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Funding Status"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Amount Raising Field -->
+            <EditText
+                    android:id="@+id/amount_raising_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount Raising"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Use of Funds Field -->
+            <EditText
+                    android:id="@+id/use_of_funds_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Use of Funds"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Founder Field -->
+            <EditText
+                    android:id="@+id/founder_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Founder"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Co-Founder Field -->
+            <EditText
+                    android:id="@+id/cofounder_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Co-Founder"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Founder/Co-Founder Info Field -->
+            <EditText
+                    android:id="@+id/founder_info_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Founder/Co-Founder Info"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- LinkedIn Profile Field -->
+            <EditText
+                    android:id="@+id/linked_in_profile_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="LinkedIn Profile"
+                    android:layout_marginBottom="24dp" />
+
+            <!-- Signup Button -->
+            <Button
+                    android:id="@+id/signup_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Signup"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:padding="12dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

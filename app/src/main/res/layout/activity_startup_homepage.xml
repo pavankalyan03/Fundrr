@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/background_color"
+              android:padding="16dp">
+
+    <!-- GridLayout for Buttons -->
+    <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="3"
+            android:columnCount="3"
+            android:layout_gravity="center">
+
+        <!-- Raise Funds Button -->
+        <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background">
+
+            <ImageButton
+                    android:id="@+id/raise_funds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/example"
+                    android:contentDescription="@string/raise_funds_desc"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Raise Funds"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+        </LinearLayout>
+
+        <!-- Connect Investors Button -->
+        <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background">
+
+            <ImageButton
+                    android:id="@+id/connect_investors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/example"
+                    android:contentDescription="@string/connect_investors_desc"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Connect Investors"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+        </LinearLayout>
+
+        <!-- Upload Pitch Deck Button -->
+        <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background">
+
+            <ImageButton
+                    android:id="@+id/upload_pitch_deck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/example"
+                    android:contentDescription="@string/upload_pitch_deck_desc"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Pitch Deck"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+        </LinearLayout>
+
+        <!-- Dash Board Button (1st instance) -->
+        <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background">
+
+            <ImageButton
+                    android:id="@+id/dash_board1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/example"
+                    android:contentDescription="@string/dash_board1_desc"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dash Board"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+        </LinearLayout>
+
+        <!-- Invest Money Button -->
+        <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background">
+
+            <ImageButton
+                    android:id="@+id/invest_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/example"
+                    android:contentDescription="@string/invest_money_desc"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invest Money"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+        </LinearLayout>
+
+        <!-- Connect Startups Button -->
+        <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background">
+
+            <ImageButton
+                    android:id="@+id/connect_startups"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/example"
+                    android:contentDescription="@string/connect_startups_desc"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Connect Startups"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+        </LinearLayout>
+
+        <!-- Choose Sector Button -->
+        <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background">
+
+            <ImageButton
+                    android:id="@+id/choose_sector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/example"
+                    android:contentDescription="@string/choose_sector_desc"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Sector"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+        </LinearLayout>
+
+        <!-- Dash Board Button (2nd instance) -->
+        <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background">
+
+            <ImageButton
+                    android:id="@+id/dash_board2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/example"
+                    android:contentDescription="@string/dash_board2_desc"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter" />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dash Board"
+                    android:textColor="#FFFFFF"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp" />
+        </LinearLayout>
+
+    </GridLayout>
+
+
+</LinearLayout>

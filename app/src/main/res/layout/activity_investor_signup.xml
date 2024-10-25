@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".InvestorSignupActivity">
+
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+            <!-- Signup Title -->
+            <TextView
+                    android:id="@+id/signup_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Investor Signup"
+                    android:textSize="36sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="24dp" />
+
+            <!-- Investor Name Field -->
+            <EditText
+                    android:id="@+id/investor_name_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Investor Name"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Type of Investor Field -->
+            <EditText
+                    android:id="@+id/type_of_investor_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Type of Investor"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Location Field -->
+            <EditText
+                    android:id="@+id/location_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Location"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Investment Size Field -->
+            <EditText
+                    android:id="@+id/investment_size_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Investment Size"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Sector Field -->
+            <EditText
+                    android:id="@+id/sector_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Sector"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Stage Field -->
+            <EditText
+                    android:id="@+id/stage_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Stage"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Preferences Field -->
+            <EditText
+                    android:id="@+id/preferences_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Preferences"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Risk Tolerance Field -->
+            <EditText
+                    android:id="@+id/risk_tolerance_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Risk Tolerance"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Preferred Geographic Focus Field -->
+            <EditText
+                    android:id="@+id/preferred_geographic_focus_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Preferred Geographic Focus"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- Track Record Field -->
+            <EditText
+                    android:id="@+id/track_record_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Track Record"
+                    android:layout_marginBottom="16dp" />
+
+            <!-- LinkedIn Profile Field -->
+            <EditText
+                    android:id="@+id/linked_in_profile_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="LinkedIn Profile"
+                    android:layout_marginBottom="24dp" />
+
+            <!-- Signup Button -->
+            <Button
+                    android:id="@+id/signup_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Signup"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:padding="12dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
